@@ -1,0 +1,59 @@
+@media (max-width:900px){
+    .name{
+        display: flex;
+        flex-direction: column;
+      gap:10px ;
+        
+       
+        
+         
+     }
+     .query{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    fieldset{
+        border: 1px solid;
+        border-radius: 5px;
+        width: 90%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        
+    }
+    .message-part input{
+        width: 100%;
+        height: 15vh;
+        border-radius: 5px;
+        border: 1px solid;
+        
+        }
+        form{
+            background-color: white;
+            width: 40%;
+            height: 125vh;
+            margin: auto;
+            padding: 40px;
+            border-radius: 15px;
+          
+           
+        }
+        body{
+            font-family: 'Karla';
+            background-color:hsl(148, 38%, 91%);
+            width: 90%;
+            height: 200vh;
+        }
+        button{
+            color: white;
+            background-color:hsl(169, 82%, 27%);
+            border: 1px solid;
+            width: 100%;
+            height: 6vh;
+            margin: 20px;
+           margin-bottom: 20px;
+            border-radius: 8px;
+            
+        }
+}

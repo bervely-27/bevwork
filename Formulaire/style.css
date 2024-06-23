@@ -1,0 +1,92 @@
+body{
+    font-family: 'Karla';
+    background-color:hsl(148, 38%, 91%);
+    width: 100%;
+    height: 100vh;
+}
+form{
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+  
+   
+}
+.name{
+   display: flex;
+   justify-content: space-between;
+   
+   /* padding-bottom:20px ; */
+   
+
+   
+    
+}
+
+.name-child{
+    flex-basis: 45%;
+}
+.name input{
+    border-radius: 5px;
+    border: 1px solid;
+    height: 5vh;
+  width: 100%;
+
+}
+.query{
+    display: flex;
+    gap:10px;
+}
+.query-type{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+fieldset{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    
+}
+button{
+    color: white;
+    background-color:hsl(169, 82%, 27%);
+    border: 1px solid;
+    width: 95%;
+    height: 6vh;
+    margin: 20px;
+   margin-bottom: 20px;
+    border-radius: 8px;
+}
+.message-part input{
+width: 100%;
+height: 15vh;
+border-radius: 5px;
+border: 1px solid;
+
+}
+.checkbox{
+    margin-top: 20px;
+}
+.address-mail input{
+    width: 100%;
+    height: 5vh;
+    border: 1px solid ;
+    border-radius: 5px;
+    
+    }
+    fieldset:hover{
+        border:1px solid hsl(169, 82%, 27%);
+        background-color:  hsl(148, 38%, 91%);
+        color: white;
+    }
+    button:hover{
+        background-color:rgb(6, 51, 32)
+    }
+   
+    

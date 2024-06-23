@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="reponsive.css" rel="stylesheet">
+
+    <title>Formulaire de Contact</title>
+</head>
+
+<body>
+
+    <form>
+        <h1>Contact Us</h1>
+        <div class="name">
+            <div class="name-child">
+                <p>First Name*</p>
+                <input type="text" name="firstname" required="this field is required">
+            </div>
+            <div class="name-child">
+                <p>Last Name*</p>
+                <input type="text" name="lastname" required="this field is required">
+            </div>
+
+        </div>
+        <div class="address-mail">
+            <p>Email address*</p><input type="text" name="email" required="please enter a valid email address">
+        </div>
+        <div class="query-type">
+            <p>Query type*</p>
+            <div class="query">
+
+                <fieldset>
+                    <label>
+                        <input id="genral" name="query-type" type="radio"
+                            required="please select a query type">
+                        </label>
+                            <span>General Enquiry</span>
+                </fieldset>
+
+                <fieldset><label><input id="support" type="radio" name="query-type"
+                            required="this field is required">Support Request</label> </fieldset>
+
+
+            </div>
+        </div>
+
+        <div class="message-part">
+            <p>Message*</p><input type="text" name="Message" required="this field is required">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" name="communication" required="this field is required">I consent to be
+                contacted by the team*</label>
+        </div>
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>

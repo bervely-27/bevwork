@@ -1,0 +1,71 @@
+*{
+    font-family: 'mukta';
+}
+
+
+/*LA PREMIERE NAV*/
+.nav-social-media{
+    display: flex;
+    justify-content: space-between;
+    color:#3a3a3a;
+}
+.nav-social-media:hover{
+    text-decoration: underline;
+}
+a{
+    color: #3a3a3a;
+}
+.nav-social-media-left{
+    padding-left: 50px;
+    display: flex;
+    gap: 15px;
+}
+.nav-social-media-right{
+    padding-right: 50px;
+    display: flex;
+    gap: 15px;
+
+}
+/*DEUXIEME NAV BAR*/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 60px;
+    
+}
+span{
+    color: #9ECD27;
+}
+.nav-bar2{
+    display: flex;
+    gap: 50px;
+    
+}
+button{
+    background-color: rgb(42, 211, 253);
+    border: 1px ;
+    border-radius: 25px;
+    width: 25%;
+    height: 3rem;
+    color: white;
+ }
+ button:hover{
+    background-color: #9ECD27;
+ }
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline ;
+}
+.nav-bar a:hover{
+    color: #9ECD27;
+    text-decoration: underline  #9ECD27 5px ;
+}
+.nav-bar i:hover{
+    color: green;
+    text-decoration: underline  #9ECD27 5px ;
+   
+}
