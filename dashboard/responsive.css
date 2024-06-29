@@ -24,7 +24,7 @@
         border: 1px solid black;
         background: black;
     }
-
+    
     .searchbar {
         display: none;
 
@@ -107,7 +107,7 @@
     .colored-box1 {
         background-color: rgba(255, 239, 231, 1);
         border-radius: 10px;
-        width: 350px;
+        width: 80vw;
         height: 136px;
         padding: 12px 12px 12px 20px;
         top: 166px;
@@ -118,7 +118,7 @@
     .colored-box2 {
         background-color: rgba(232, 240, 251, 1);
         border-radius: 10px;
-        width: 350px;
+        width: 80vw;
         height: 136px;
         padding: 12px 12px 12px 20px;
         padding-bottom: 20px;
@@ -127,7 +127,7 @@
     .colored-box3 {
         background-color: rgba(253, 235, 249, 1);
         border-radius: 10px;
-        width: 350px;
+        width: 80vw;
         height: 136px;
         padding: 12px 12px 12px 20px;
         top: 166px;
