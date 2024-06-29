@@ -1,0 +1,18 @@
+
+.letters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100;
+    animation-name: zoom;
+}
+.letters:nth-child(1){
+    
+
+}
+@keyframes zoom{
+    0%{
+        transform: ;
+    }
+
+}

@@ -1,0 +1,196 @@
+@media (max-width:480px) {
+    .hamburger {
+        display: block;
+        padding: 0 2rem;
+        color: black;
+
+
+
+    }
+    .cross-icon{
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    input {
+        outline: 50px;
+    }
+
+    input,
+    #look {
+        border: 1px solid black;
+        background: black;
+    }
+
+    .searchbar {
+        display: none;
+
+    }
+
+    .profile {
+        padding-right: 0;
+    }
+
+
+
+    .navbar2 {
+        align-items: center;
+        width: 100vw;
+        height: 8vh;
+        margin: 0;
+
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .announcement {
+        margin-top: 190px;
+        width: 100%;
+        border: 1px solid rgba(241, 241, 241, 1);
+        padding: 10px;
+        border-radius: 10px;
+        height: 40%;
+    }
+
+    .box2-part1 {
+        /* Total Employees */
+
+        box-sizing: border-box;
+
+
+        width: 350px;
+        height: 190px;
+        left: 20px;
+
+
+
+
+    }
+
+    .box2-part2 {
+
+
+
+        width: 350px;
+        height: 190px;
+        left: 20px;
+
+
+
+
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .colored-box1 {
+        background-color: rgba(255, 239, 231, 1);
+        border-radius: 10px;
+        width: 350px;
+        height: 136px;
+        padding: 12px 12px 12px 20px;
+        top: 166px;
+        left: 293px;
+        padding-bottom: 20px;
+    }
+
+    .colored-box2 {
+        background-color: rgba(232, 240, 251, 1);
+        border-radius: 10px;
+        width: 350px;
+        height: 136px;
+        padding: 12px 12px 12px 20px;
+        padding-bottom: 20px;
+    }
+
+    .colored-box3 {
+        background-color: rgba(253, 235, 249, 1);
+        border-radius: 10px;
+        width: 350px;
+        height: 136px;
+        padding: 12px 12px 12px 20px;
+        top: 166px;
+        left: 729px;
+        padding-bottom: 20px;
+
+    }
+
+    .announcement-first-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgba(241, 241, 241, 1);
+        border-radius: 5px;
+        height: 100px;
+        padding: 5px;
+        background-color: rgb(249, 249, 252);
+        margin: 20px 0;
+    }
+
+    .blue-part {
+        background-color: hsla(232, 58%, 21%, 1);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        width: 300px;
+        height: 30%;
+        margin-top: 20px;
+    }
+
+    .last-blue-part button {
+        border: 1px solid hsla(0, 100%, 66%, 1);
+        background-color: hsla(0, 100%, 66%, 1);
+        color: white;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+    .schedule {
+
+        width: 90%;
+
+
+    }
+
+    .schedule-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgba(241, 241, 241, 1);
+        border-radius: 5px;
+        height: 100px;
+        padding: 20px;
+        background-color: rgb(249, 249, 252);
+        margin: 20px 0;
+    }
+
+    .schedule-title h6 {
+        border: 1px solid rgba(241, 241, 241, 1);
+        width: 150px;
+        text-align: center;
+        font-size: 10px;
+        height: 20px;
+    }
+
+}

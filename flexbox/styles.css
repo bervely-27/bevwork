@@ -2,7 +2,7 @@ body{
     margin:0;
     padding: 0;
     width: 100%;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
 .nav-bar{
@@ -44,20 +44,29 @@ a{
 
     
 }
+.background-section2 p{
+    margin-bottom: 20px;
+}
+#text-3{
+    /* margin-top: -25px; */
+}
 span{
      font-size: 1.25rem; 
 }
 h1{
      font-size: 3em; 
     width: 30%; 
+    
 }
 .background-section2{
     text-align: left;
-    margin-bottom: 50px;
+   
     height: 50%;
+   
 }
 #text-1{
     padding-top: 50px;
+   
 }
 .section-2{
     padding-left:5%;
@@ -161,6 +170,7 @@ img{
 .under-br{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 hr{
     border: 1px solid black;
