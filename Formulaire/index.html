@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link href="reponsive.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Formulaire de Contact</title>
 </head>
 
@@ -16,20 +16,20 @@
         <h1>Contact Us</h1>
         <div class="name">
             <div class="name-child">
-                <p>First Name*</p>
+                <div class="space"><p>First Name</p><p>*</p></div>
                 <input type="text" name="firstname" required="this field is required">
             </div>
             <div class="name-child">
-                <p>Last Name*</p>
+                <div class="space"><p>Last Name</p><p>*</p></div>
                 <input type="text" name="lastname" required="this field is required">
             </div>
 
         </div>
         <div class="address-mail">
-            <p>Email address*</p><input type="text" name="email" required="please enter a valid email address">
+           <div class="space"><p>Email address</p><p>*</p></div> <input type="text" name="email" required="please enter a valid email address">
         </div>
         <div class="query-type">
-            <p>Query type*</p>
+            <div class="space"><p>Qurey type</p><p>*</p></div>
             <div class="query">
 
                 <fieldset>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="message-part">
-            <p>Message*</p><input type="text" name="Message" required="this field is required">
+            <div class="space"><p>Message</p><p>*</p></div><input type="text" name="Message" required="this field is required">
         </div>
         <div class="checkbox">
             <label><input type="checkbox" name="communication" required="this field is required">I consent to be

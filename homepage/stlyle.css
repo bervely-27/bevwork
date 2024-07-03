@@ -58,10 +58,16 @@ a:hover{
     
 }
 .hero h1{
-    font-size: 35px;
-    font-weight: bolder;
+    font-size: 45px;
+    font-weight: 1000;
 
     
+}
+
+.text-button{
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 250;
 }
 .text-hero{
     display: flex;
@@ -79,8 +85,10 @@ a:hover{
 }
 .second-part{
     background-color: hsl(240, 100%, 5%);
-    padding: 25px;
+    padding: 20px;
     margin-top:30px;
+    height: 620px;
+    
 }
 .second-part h2 {
     color: hsl(35, 77%, 62%);
@@ -94,20 +102,22 @@ a:hover{
 }
 .second-part h4{
 color: hsl(36, 100%, 99%);
+font-size: 25px;
     
 }
 .second-part p{
     color: hsl(236, 13%, 42%);
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Inter';
-    padding-bottom: 10px ;
+    padding-bottom: 50px ;
         
     }
     button{
     background-color: hsl(5, 85%, 63%);
     color:hsl(240, 100%, 5%) ;
     border: 1px solid hsl(5, 85%, 63%);
-    
+    font-size: 20px;
+    font-weight: 500;
     width: 25%;
     height: 7vh;
     }
@@ -117,7 +127,7 @@ color: hsl(36, 100%, 99%);
         border: 1px solid  hsl(240, 100%, 5%);
     }
     h1{
-        font-size:50px ;
+        font-size:60px ;
         font-weight:bold ;
     }
     .block img{

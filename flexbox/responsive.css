@@ -1,7 +1,8 @@
 @media (max-width:900px) {
     body {
         width: 100%;
-        overflow: hidden;
+        
+        height: 100%;
     }
 
     .nav-bar {
@@ -19,7 +20,7 @@
         background-color: black;
         width:30%;
         /*margin:15px;*/
-        height: 5vh;
+        height: 7vh;
         font-size: 15px;
     }
     li{
@@ -43,8 +44,12 @@
     h1{
         font-size: 20px; 
        width: 30px; 
+       margin-top: -20px;
        
    }
+   #text-3{
+     margin-top: -px; 
+}
    #text-1{
     padding: 5px 0;
     width: 100%;
@@ -54,8 +59,11 @@
     text-align: center;
     font-size: 15px;
 display: inline;
+margin-top: -20px;
     
 }
+
+
 .gallery-items{
     background-size: cover;
     width:100%;

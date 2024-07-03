@@ -1,18 +1,111 @@
-
-.letters{
+body {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100;
-    animation-name: zoom;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
-.letters:nth-child(1){
-    
+
+.animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+.letters {
+
+    animation-duration: 1s;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: zoom 0.5s forwards;
+    font-size: 50px;
 
 }
-@keyframes zoom{
-    0%{
-        transform: ;
+
+.letters:nth-child(1) {
+
+    animation-delay: 0s;
+    animation-duration: 1s;
+    transform: scale(10);
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.letters:nth-child(2) {
+
+    animation-delay: 1s;
+    animation-duration: 1s;
+    transform: scale(10);
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.letters:nth-child(3) {
+   
+    animation-delay: 3s;
+    transform: scale(10);
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.letters:nth-child(4) {
+
+    animation-delay: 4s;
+
+    transform: scale(10);
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.letters:nth-child(5) {
+
+    animation-delay: 5s;
+    transform: scale(10);
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+.letters:nth-child(6) {
+
+    animation-delay: 6s;
+    transform: scale(10);
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+
+
+}
+
+
+.letter1{
+    transform: translateY(50px);
+    animation: witch 15s forwards;
+    animation-duration: 1s !important;
+    animation-timing-function: ease-out;
+    animation-delay: 7s;
+    opacity: 0;
+}
+
+@keyframes zoom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
+}
 
+@keyframes witch {
+    to {
+        opacity: 1;
+        transform: translateY(1);
+    }
 }
