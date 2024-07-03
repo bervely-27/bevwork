@@ -65,7 +65,7 @@
 
     .announcement {
         margin-top: 190px;
-        width: 100%;
+        width: 80vw;
         border: 1px solid rgba(241, 241, 241, 1);
         padding: 10px;
         border-radius: 10px;
@@ -98,6 +98,11 @@
 
 
 
+    }
+    .whole {
+        display: flex;
+        overflow: hidden;
+        gap: 0px;
     }
 
     .box {
@@ -146,6 +151,7 @@
         padding: 5px;
         background-color: rgb(249, 249, 252);
         margin: 20px 0;
+        /* width: 100%; */
     }
 
     .blue-part {
